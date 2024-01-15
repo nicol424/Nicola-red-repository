@@ -1,0 +1,65 @@
+/* PREIMPOSTAZIONI COLORI E FONT */
+:root{
+    --main: rgb(139, 0, 0);
+    --acc: rgba(213, 173, 168, 0.912);
+    --myWhite: rgb(230, 230, 230);
+    --myBlack: rgb(34, 40, 41);
+}
+
+@font-face {
+    font-family: FontMain;
+    src: url(./media/FONT-MAIN.ttf);
+}
+
+h1, .h1, p, .p{
+    font-family: FontMain;
+}
+
+/* TXT-COLOR */
+.txt-main{
+    color: var(--main);
+}
+.txt-acc{
+    color: var(--acc);
+}
+.txt-myWhite{
+    color: var(--myWhite);
+}
+.txt-myBlack{
+    color: var(--myBlack);
+}
+.bg-main{
+    color: var(--main);
+}
+.bg-acc{
+    color: var(--acc);
+}
+.bg-myWhite{
+    color: var(--myWhite);
+}
+.bg-myBlack{
+    color: var(--myBlack);
+}
+/* NAVBAR STYLE */
+.mynavbar{
+background-color: white;
+}
+
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+li{
+    list-style-type: none;
+}
+/* FINE NAVBAR STYLE */
+/* INIZIO HEADER */
+.img2{
+    background: linear-gradient(rgba(255, 255, 255, 0.927), rgba(255, 255, 255, 0), url(./media/switzerland-862870_1920.jpg)
+    background-position: center;
+    background-size: cover;
+}
+
+/* FINE HEADER */
