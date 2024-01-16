@@ -11,55 +11,50 @@
     src: url(./media/FONT-MAIN.ttf);
 }
 
-h1, .h1, p, .p{
+/* MY NAVBAR */
+.mynavbar{
+    display: flex;
+    list-style-type: none !important;
+    justify-content: center;
     font-family: FontMain;
 }
-
-/* TXT-COLOR */
-.txt-main{
-    color: var(--main);
-}
-.txt-acc{
-    color: var(--acc);
-}
-.txt-myWhite{
-    color: var(--myWhite);
-}
-.txt-myBlack{
-    color: var(--myBlack);
-}
-.bg-main{
-    color: var(--main);
-}
-.bg-acc{
-    color: var(--acc);
-}
-.bg-myWhite{
-    color: var(--myWhite);
-}
-.bg-myBlack{
-    color: var(--myBlack);
-}
-/* NAVBAR STYLE */
-.mynavbar{
-background-color: white;
-}
-
 .link{
+    height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-
-}
-li{
     list-style-type: none;
+    justify-content: space-around
 }
-/* FINE NAVBAR STYLE */
-/* INIZIO HEADER */
-.img2{
-    background: linear-gradient(rgba(255, 255, 255, 0.927), rgba(255, 255, 255, 0), url(./media/switzerland-862870_1920.jpg)
-    background-position: center;
+/* FINE MY NAVBAR */
+/* MY HEADER */
+.bg-header{
+    background: linear-gradient(white, rgba(255, 255, 255, 0)), url(./media/mountains.png), url(./media/switzerland-862870_1920.jpg);
     background-size: cover;
+    background-position: center;
 }
 
-/* FINE HEADER */
+h1{
+    font-family: FontMain;
+    color: var(--main);
+    font-size: 80px;
+}
+p{
+    font-family: FontMain;
+}
+/* FINE MY HEADER */
+/* SEZIONE */
+.lorem-center{
+    margin-left: 300px;
+    margin-right: 300px
+}
+.icon-color{
+    list-style-type: none;
+    color: var(--main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 80px;
+
+}
+
+/* FINE SEZIONE */
