@@ -6,6 +6,10 @@
     --myBlack: rgb(34, 40, 41);
 }
 
+.txt-main{
+    color: rgb(139, 0, 0) ;
+}
+
 @font-face {
     font-family: FontMain;
     src: url(./media/FONT-MAIN.ttf);
@@ -48,13 +52,51 @@ p{
     margin-right: 300px
 }
 .icon-color{
-    list-style-type: none;
+    width: 2px solid rgb(139, 0, 0);
     color: var(--main);
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 80px;
-
+    font-size: 40px;
 }
 
+.col-3{
+    margin-bottom: 0px;
+}
+.container-fluid2{
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+.bordo{
+    border-bottom: 2px solid var(--main);
+    padding-bottom: 15px;
+}
+.bordo::after{
+    content:" ";
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--main);
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--myWhite);
+    margin-top: 30px;
+}
+.titolo{
+    text-align: end;
+    font-family: FontMain;
+
+}
+.titolo1{
+    text-align: start;
+}
 /* FINE SEZIONE */
+/* SEZIONE 2 */
+.lorem-ipsum{
+    background-color: var(--main);
+    margin-top: 200px;
+    padding-block: 10px;
+    padding-inline: 10px;
+    font-family: FontMain;
+}
+/* FINE SEZIONE 2 */
