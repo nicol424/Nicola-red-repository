@@ -36,7 +36,9 @@
     background-size: cover;
     background-position: center;
 }
-
+/* .box-custom{
+    background-color: var(--myWhite);
+} */
 h1{
     font-family: FontMain;
     color: var(--main);
@@ -98,5 +100,30 @@ p{
     padding-block: 10px;
     padding-inline: 10px;
     font-family: FontMain;
+    color: white;
 }
 /* FINE SEZIONE 2 */
+/* TIMELINE SECTION */
+.box2{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: var(--myWhite);
+    background-repeat: no-repeat;
+}
+
+#timeLine2{
+    color:  var(--main);
+    font-family: FontMain;
+    padding-left: 2px solid var(--myBlack);
+}
+h3{
+    color: var(--main);
+    font-family: FontMain;
+    padding-top: 50px;
+}
+.point-txt{
+    list-style-type: none;
+}
+/* FINE TIMELINE SECTION */
